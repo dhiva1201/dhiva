@@ -1,0 +1,11 @@
+x=input()
+x=x.split()
+N=int(x[0])
+K=int(x[1])
+y=input()
+y=y.split()
+y=sorted(y)
+j=1
+while(j!=K):
+    j+=1
+print(y[j-1])
