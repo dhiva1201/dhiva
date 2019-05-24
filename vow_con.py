@@ -1,7 +1,8 @@
 c=input()
 if(c.isalpha()):
     c=c.lower()
-    if(c=='a'or c=='e'or c=='i'or c=='o'or c=='u'):
+    x="aeiou"
+    if c in x:
         print("Vowel")
     else:
         print("Consonant")
