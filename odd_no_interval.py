@@ -1,11 +1,6 @@
-x=input()
-x=x.split()
-a=int(x[0])
-b=int(x[1])
-s=""
-for i in range (a+1,b):
-    if((i%2)!=0):
-        s=s+str(i)+" "
-    else:
-        continue
-print(s)
+a,b = input().split()
+n=int(a)
+end=int(b)
+for i in range(n + 1 , end ):
+	if i % 2 != 0:
+		print(i, end = " ")
