@@ -1,0 +1,5 @@
+x,y=input().split()
+N=int(x)
+K=int(y)
+z=input().split()
+print(z[K-1])
