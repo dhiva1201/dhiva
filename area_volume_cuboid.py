@@ -3,5 +3,5 @@ L=int(x)
 B=int(y)
 H=int(z)
 TS=2*(L*B + B*H +L*H)
-V=6*(L**2)
+V=L*B*H
 print(TS,V)
