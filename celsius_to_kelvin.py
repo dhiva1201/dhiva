@@ -1,2 +1,2 @@
 c=int(input())
-print(k+273)
+print(c+273)
