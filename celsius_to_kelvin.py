@@ -1,2 +1,3 @@
 c=int(input())
-print(c+273)
+t=c+273
+print(t)
