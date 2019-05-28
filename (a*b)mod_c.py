@@ -1,0 +1,6 @@
+a,b,c=input().split()
+x=int(a)
+y=int(b)
+z=int(c)
+p=((x*y)%z)
+print(p)
