@@ -1,5 +1,5 @@
 n=input()
-n=int(n)#4
+n=int(n)
 l=[]
 for i in range(0,n):  
     n1=input()
